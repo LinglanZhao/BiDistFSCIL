@@ -10,11 +10,8 @@ We follow [FSCIL](https://github.com/xyutao/fscil) setting to use the same data 
 Please follow the guidelines in [CEC](https://github.com/icoz69/CEC-CVPR2021) to prepare them.
 Scripts for experiments on mini-imagenet are as follows, and the full codes will be available upon acceptance:
 
-## Full code
-Full code will be available after the conference.
-
 ## Pretrain scripts 
-mini-imagenet (We also provide our pre-trained model so this step is optional.)
+mini-imagenet (We also provide our [pre-trained model](https://drive.google.com/file/d/1c9uMcDJLXseHxFT9Xw234dVE648Mk7ti/view?usp=sharing) so this step is optional.)
 
     $ python train.py --dataset mini-imagenet --exp_dir experiment --epoch 200 --batch_size 256 --init_lr 0.1 --milestones 120 160 --val_start 100 --change_val_interval 160
 
